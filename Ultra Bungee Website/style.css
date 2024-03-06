@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    align-items: center;
+    background-color: lightblue;
+
+}
+
+header img {
+    max-height: 15vh;
+    padding: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: large;
+    font-family: sans-serif;
+    color: white;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.bg {
+    background: url("img/ultra-bungee-hero.jpg");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg2 {
+    background: url("img/bridge1.jpg");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    height: 25vh;
+    background-color: greenyellow;
+    opacity: 0.8;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 10vh;
+}
+
+.banner h1{
+    padding-top: 15px;
+    color: darkgreen;
+}
+
+.banner ul li{
+    display: inline-block;
+    padding: 0px 15px;
+    color: darkgreen;
+    border-style: solid;
+    border-spacing: initial;
+ 
+}
+
+.price_info{
+    text-align: center;
+}
+
+.price_info h1{
+    font-size: 65px;
+    padding-top: 50px;
+}
+
+.price_info h3{
+    font-style: normal;
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+.banner2 {
+    height: 15vh;
+    background-color: darkblue;
+    text-align: center;
+    font-size: x-large;
+    position: absolute;
+    width: 100%;
+    bottom: 10vh;
+}
+
+.banner2 h1{
+    color: white;
+    padding-top: 15px
+}
